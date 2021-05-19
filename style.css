@@ -1,11 +1,16 @@
 .header {
+  text-align: center;
   border-bottom: 1px solid;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  background-color:rgb(245,245,245);
 }
 
 .objective {
   font-style: italic;
   font-size: 18px;
-  margin-top: 30px;
+  margin-top: 150px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -59,4 +64,5 @@ h3 {
 
 li {
   margin-bottom: 5px;
+  margin-left: 10%;
 }
