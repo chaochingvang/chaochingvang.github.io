@@ -1,22 +1,16 @@
-.header {
-  text-align: center;
-  border-bottom: 1px solid;
-  position: fixed; 
-  top: 0; 
-  width: 100%;
-  background-color:rgb(245,245,245);
+div {
+  margin-bottom:50px;
 }
 
-.objective {
-  font-style: italic;
-  font-size: 18px;
-  margin-top: 200px;
-  margin-left: 10%;
-  margin-right: 10%;
+table, th, td {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-.education {
-  text-align: center;
+td {
+    vertical-align: middle;
 }
 
 body {
@@ -43,9 +37,45 @@ h2 {
   text-transform: uppercase;
 }
 
-h3 {
-  line-height: 0px;
-  margin-top: 50px;
+li {
+  margin-bottom: 5px;
+  margin-left: 10%;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 1px solid;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  background-color:rgb(245,245,245);
+}
+
+.header h4 {
+  font-weight: normal;
+}
+
+.objective {
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 200px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.education {
+  text-align: center;
+}
+
+.education img {
+  width: 150px;
+}
+
+.experience img {
+  height: 90px;
+}
+
+.experience h3 {
   font-size: 24px;
   text-decoration: underline;
   text-align: center;
@@ -56,13 +86,4 @@ h3 {
   font-style: oblique;
   font-weight: normal;
   text-align: center;
-}
-
-.header h4 {
-  font-weight: normal;
-}
-
-li {
-  margin-bottom: 5px;
-  margin-left: 10%;
 }
